@@ -84,27 +84,33 @@
     }
     .work-process .box{
         width: 95%;
-        padding: 4rem 2rem;
+        padding: 4rem .5rem;
     }
     .testimonials {
         padding: .5rem;
     }
     .pricing-plan{
-        padding: 4rem 0;
+        padding: 4rem .5rem;
     }
     .pricing-plan .starter,
     .pricing-plan .primium,
     .pricing-plan .advance{
-    width: 99%;
-    padding: 3rem;
+    width: 95%;
+    padding: 3rem 0.5rem;
     }
     .blog{
-        padding: 4rem 0;
+        padding: 4rem .5rem;
     }
     .blog .card-img-top{
-        max-width:100%;
+        max-width:95%;
     }
     .contact {
-        padding: 5rem 0;
+        padding: 5rem .5rem;
+    }
+}
+
+@media (max-width : 279px){
+    html{
+        font-size: 45%;
     }
 }
